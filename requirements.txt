@@ -9,3 +9,4 @@ langchain
 transformers
 torch
 sentence-transformers
+langchain-community
