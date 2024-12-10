@@ -14,14 +14,6 @@ from langchain.memory import ConversationBufferMemory
 from PyPDF2 import PdfReader
 import docx
 from langchain.vectorstores import FAISS
-
-
-
-
-
-# Initialize conversation history
-
-
 # Initialize conversation history
 if "conversation_history" not in st.session_state:
     st.session_state.conversation_history = []
@@ -39,12 +31,6 @@ if 'past' not in st.session_state:
 
 if 'entered_prompt' not in st.session_state:
     st.session_state['entered_prompt'] = ""  # Store the latest user input
-
-
-
-
-
-
 
 if "conversation" not in st.session_state:
         st.session_state.conversation = None
@@ -224,25 +210,6 @@ option = st.sidebar.selectbox("Choose an option", ["General Q/A", "Document Q/A"
 if st.sidebar.button("Clear Chat"):
     st.session_state.conversation_history = []
     st.success("Chat history cleared.")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Set response language and prompt template based on user's language selection
 if language == "Urdu":
