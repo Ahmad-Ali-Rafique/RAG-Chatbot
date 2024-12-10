@@ -1,6 +1,5 @@
-![RAG Voice Chatbot](https://github.com/Ahmad-Ali-Rafique/RAG-Voice-Chatbot/blob/main/RAG%20Chatbot.png)
-
 # 🎙️ RAG Voice Chatbot 🤖
+![RAG Voice Chatbot](https://github.com/Ahmad-Ali-Rafique/RAG-Voice-Chatbot/blob/main/RAG%20Chatbot.png)
 
 An advanced **Retrieval-Augmented Generation (RAG) Voice Chatbot** designed for seamless human-like conversations in Urdu and English. Built with **Google Generative AI**, **Streamlit**, and **LangChain**, this chatbot offers robust functionality, including:
 
