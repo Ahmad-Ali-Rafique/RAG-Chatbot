@@ -197,7 +197,7 @@ def handle_user_input(user_question):
 
 
 
-api_key =  "AIzaSyC0AXZnWmI9muL__PjeUNBoTVcTo5xol98"  # Replace with your actual API key
+api_key = st.secrets["google_ai"]["api_key"]
 
 st.title("🎙️RAG Voice Conversation Chatbot 🤖")
 
