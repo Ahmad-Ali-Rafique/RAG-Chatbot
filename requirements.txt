@@ -3,10 +3,10 @@ streamlit-mic-recorder
 langchain-google-genai
 gtts
 langchain
-PyPDF2 
+PyPDF2
 python-docx
-langchain
 transformers
 torch
 sentence-transformers
 langchain-community
+faiss-cpu
